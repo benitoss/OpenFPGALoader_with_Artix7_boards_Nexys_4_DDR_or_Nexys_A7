@@ -42,10 +42,15 @@ Go to the Windows Search menu (on the bottom bar) and type CMD. You will see a w
 
 ![alt text](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/blob/main/images/cmd_1.jpg)
 
-We type in the CMD terminal "openFPGALoader.exe -b nexys_a7_100 --detect". We have to see a screenshoot as this:
+We type in the CMD terminal "openFPGALoader.exe -b nexys_a7_100 --detect".
+We should see a screenshoot as this:
 
 ![alt text](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/blob/main/images/openFPGALoader_1.jpg)
 
+This means that the FPGA board is recognized and working
 
+To program the board with the bit file, we type "openFPGALoader.exe -b bitfile.bit".
+
+![alt text](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/blob/main/images/openFPGALoader_2.jpg)
 
 
