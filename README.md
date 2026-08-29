@@ -40,6 +40,6 @@ You have to open a CMD in Windows or a shell terminal in Linux
 
 Go to the Windows Search menu (on the bottom bar) and type CMD. You will see a window and the application "Command Prompt"; click " Run as administrator " on the right side.
 
-![alt text](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/blob/main/images/cmd_1.png)
+![alt text](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/blob/main/images/cmd_1.jpg)
 
 
