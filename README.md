@@ -42,4 +42,10 @@ Go to the Windows Search menu (on the bottom bar) and type CMD. You will see a w
 
 ![alt text](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/blob/main/images/cmd_1.jpg)
 
+We type in the CMD terminal "openFPGALoader.exe -b nexys_a7_100 --detect". We have to see a screenshoot as this:
+
+![alt text](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/blob/main/images/openFPGALoader_1.jpg)
+
+
+
 
