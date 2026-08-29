@@ -31,11 +31,15 @@ For Windows, you can download the Windows executable Version from [here](https:/
 
 For Linux, go to the OpenFPGALoader repository page [here](https://github.com/trabucayre/openFPGALoader) and install the software. 
 
-## Program the bitstream (bit file) directly
+You have two options to program the FPGA board.
+1) Program the board directly with the bitstream file (bit file) from the terminal
+2) Program the board remotely from a Vivado running on another PC or Device (Example: Citrix)
 
-- Colorlight 5A-75B
-- Colorlight 5A-75F
-- Colorlight i5
-- IceSugar Pro 
+## 1. Program the board directly with the bitstream file (bit file) from the terminal 
+You have to open a CMD in Windows or a shell terminal in Linux
+
+Go to the Windows Search menu (on the bottom bar) and type CMD. You will see a window and the application "Command Prompt"; click " Run as administrator " on the right side.
+
+![alt text](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/blob/main/images/cmd_1.png)
 
 
