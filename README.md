@@ -25,6 +25,11 @@ You will see the line "USB Serial Converter A" and in parentheses, Libusb-WinUSB
 
 ![alt text](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/blob/main/images/USB_Driver_Tool_3.jpg)
 
+## Download the OpenFPGALoader software 
+
+For Windows, you can download the Windows executable Version from [here](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/raw/refs/heads/main/OpenFGPALoader/openFPGALoader_V1.1.1_Windows_with_XVC_20260828.zip)
+For Linux, go to the OpenFPGALoader repository page [here](https://github.com/trabucayre/openFPGALoader) and install the software 
+
 ## Program the bitstream (bit file) directly
 
 - Colorlight 5A-75B
