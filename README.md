@@ -78,6 +78,8 @@ The easy way is to visit the webpage --> https://whatismyipaddress.com/
 
 Get the IPV4 address. The IP Address is written in dotted-decimal notation as four numbers separated by periods (e.g., 65.168.1.1).
 
+Remember: You should activate port forwarding in your router for port 8000 to the local IP of your PC where you are running the XVC Server.
+
 Now, open Vivado IDE on a remote computer (or Citrix)
 
 
