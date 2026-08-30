@@ -9,8 +9,9 @@ You will need to log in as a UNT student with two-factor authentication.
 
 Search for the Vivado 20252 Application and click on it.
 
-
-
-
 # Download the bitfile from Vivado (Citrix)
+
+Go to the upper menu and clivk on "File Transfer", and then Download
+
+![alt text](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/blob/main/images/Citrix_2.jpg)
 
