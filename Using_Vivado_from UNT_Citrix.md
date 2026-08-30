@@ -40,7 +40,7 @@ You should see a screenshot like this:
 
 ![alt text](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/blob/main/images/Vivado_4.jpg)
 
-Introduce the IP of the Server that you got before, and the port that you selected before too (8000, for example), and press the OK button.
+Introduce the IP of the XVC Server that you ran before on your local Computer, and the port that you selected before (8000, for example), and press the OK button.
 
 ![alt text](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/blob/main/images/Vivado_5.jpg)
 
