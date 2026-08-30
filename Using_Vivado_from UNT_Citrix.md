@@ -26,7 +26,7 @@ Now, you can program the FPGA board in local mode with OpenFPGALoader (First opt
 
 # Program the board remotely from a Vivado running on Citrix
 
-** Attention:** You should run the XVC server on your local computer and be sure that you have created the port forwarding for the XVC port in your router configuration.
+**Attention:** You should run the XVC server on your local computer and be sure that you have created the port forwarding for the XVC port in your router configuration.
 
 Once you have selected "Open Hardware Manager", click on "Open target" and then on "Auto Connect"
 
