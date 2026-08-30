@@ -60,9 +60,14 @@ Fantastic !!! We have already programmed our FPGA board.
 
 ## 2. Program the board remotely from a Vivado running on another PC or Device (Example: Citrix) 
 
-In this case, you are going to activate the XVC (Xilinx Virtual Cable) Server on your computer.
+In this case, you will activate the XVC (Xilinx Virtual Cable) Server on your computer.
+
 Important: Because you are going to run a server on you PC, you need to open a port in the Router to be visible from outside of your local network.
            You have more information [here](https://share.google/aimode/z2rcQWRW5NuqTHSj8)
            
+Type in the CMD terminal "openFPGALoader.exe -b nexys_a7_100 --xvc --port 8000". (You can change the port number)
+You should see a screenshot like this:
+
+![alt text](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/blob/main/images/openFPGALoader_XVC.jpg)
 
 
