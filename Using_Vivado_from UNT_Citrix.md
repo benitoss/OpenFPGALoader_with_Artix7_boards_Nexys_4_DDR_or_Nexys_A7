@@ -20,7 +20,7 @@ Select the bit file of the project; usually for the project "example_1", it is i
 
 ![alt text](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/blob/main/images/Citrix_3.jpg)
 
-Congratulations !!! You have the file downloaded on your computer
+Congratulations !!! You have the downloaded file on your computer
 
 Now, you can program the FPGA board in local mode with OpenFPGALoader (First option)
 
