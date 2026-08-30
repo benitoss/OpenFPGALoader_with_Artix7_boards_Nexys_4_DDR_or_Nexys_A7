@@ -21,6 +21,7 @@ Select the bit file of the project; usually for the project "example_1", it is i
 
 Congratulations !!! You have the file downloaded on your computer
 
+Now, you can program the FPGA board in local mode with OpenFPGALoader (First option)
 
 # Program the board remotely from a Vivado running on Citrix
 
