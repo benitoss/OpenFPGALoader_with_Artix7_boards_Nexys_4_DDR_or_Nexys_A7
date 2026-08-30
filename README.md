@@ -43,7 +43,7 @@ Go to the Windows Search menu (on the bottom bar) and type CMD. You will see a w
 
 ## 1. Program the board directly with the bitstream file (bit file) from the terminal 
 
-Important: Turn on your FPGA Board
+**Important:** Turn on your FPGA Board
 
 Type in the CMD terminal "openFPGALoader.exe -b nexys_a7_100 --detect".
 You should see a screenshot like this:
@@ -62,7 +62,7 @@ Fantastic !!! We have already programmed our FPGA board.
 
 In this case, you will activate the XVC (Xilinx Virtual Cable) Server on your computer.
 
-Important: Because you are going to run a server on you PC, you need to open a port in the Router to be visible from outside of your local network.
+**Important:** Because you are going to run a server on you PC, you need to open a port in the Router to be visible from outside of your local network.
            You have more information [here](https://share.google/aimode/z2rcQWRW5NuqTHSj8) 
            
 Type in the CMD terminal "openFPGALoader.exe -b nexys_a7_100 --xvc --port 8000". (You can change the port number)
@@ -70,7 +70,7 @@ You should see a screenshot like this:
 
 ![alt text](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/blob/main/images/openFPGALoader_XVC.jpg)
 
-Do not close this CMD terminal window; leave it open!!!
+**Do not close this CMD terminal window; leave it open!!!**
 
 You need to know the public IP address that the ISP is giving to your router.
 
@@ -78,7 +78,7 @@ The easy way is to visit the webpage --> https://whatismyipaddress.com/
 
 Get the IPV4 address. The IP Address is written in dotted-decimal notation as four numbers separated by periods (e.g., 65.168.1.1).
 
-Remember: You should activate port forwarding in your router for port 8000 to the local IP of your PC where you are running the XVC Server.
+**Remember:** You should activate the port forwarding in your router for port 8000 to the local IP of your PC where you are running the XVC Server.
 
 Now, open Vivado IDE on a remote computer (or Citrix)
 
