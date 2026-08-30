@@ -13,7 +13,8 @@ When working in Windows, you have to install the LibUSBk driver so that OpenFPGA
 
 I use the utility USB Driver Tool; you can download it from https://visualgdb.com/UsbDriverTool/  
 The latest version is here --> https://sysprogs.com/getfile/1372/UsbDriverTool-2.1.exe
-If you use the FT2232H JTAG programmer or a compatible device, you will see the "USB Serial Converter A" with VID 0403 and VPI 6010.
+
+For FT2232H JTAG programmer or a compatible device, you will see the "USB Serial Converter A" with VID 0403 and VPI 6010.
 
 ![alt text](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/blob/main/images/USB_Driver_Tool_1.jpg)
 
