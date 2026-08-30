@@ -24,6 +24,8 @@ Congratulations !!! You have the file downloaded on your computer
 
 # Program the board remotely from a Vivado running on Citrix
 
+** Attention:** You should run the XVC server on your local computer and be sure that you have created the port forwarding for the XVC port in your router configuration.
+
 Once you have selected "Open Hardware Manager", click on "Open target" and then on "Auto Connect"
 
 ![alt text](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/blob/main/images/Vivado_2.jpg)
