@@ -82,5 +82,9 @@ Remember: You should activate port forwarding in your router for port 8000 to th
 
 Now, open Vivado IDE on a remote computer (or Citrix)
 
+In the "Open Hardware Manager", click on "Open target" and then on "Auto Connect"
+
+![alt text](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/blob/main/images/Vivado_2.jpg)
+
 
 
