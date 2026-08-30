@@ -35,22 +35,34 @@ You have two options to program the FPGA board.
 1) Program the board directly with the bitstream file (bit file) from the terminal
 2) Program the board remotely from a Vivado running on another PC or Device (Example: Citrix)
 
-## 1. Program the board directly with the bitstream file (bit file) from the terminal 
-You have to open a CMD in Windows or a shell terminal in Linux
+For both options, you have to open a CMD in Windows or a shell terminal in Linux
 
 Go to the Windows Search menu (on the bottom bar) and type CMD. You will see a window and the application "Command Prompt"; click " Run as administrator " on the right side.
 
 ![alt text](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/blob/main/images/cmd_1.jpg)
 
-We type in the CMD terminal "openFPGALoader.exe -b nexys_a7_100 --detect".
-We should see a screenshoot as this:
+## 1. Program the board directly with the bitstream file (bit file) from the terminal 
+
+Important: Turn on your FPGA Board
+
+Type in the CMD terminal "openFPGALoader.exe -b nexys_a7_100 --detect".
+You should see a screenshot like this:
 
 ![alt text](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/blob/main/images/openFPGALoader_1.jpg)
 
-This means that the FPGA board is recognized and working
+This means that the FPGA board is recognized by the OpenFPGALoader application and is working
 
-To program the board with the bit file, we type "openFPGALoader.exe -b bitfile.bit".
+To program the FPGA board with the bit file, we type "openFPGALoader.exe -b bitfile.bit".
 
 ![alt text](https://github.com/benitoss/Use_OpenFPGALoader_as_XVC_server/blob/main/images/openFPGALoader_2.jpg)
+
+Fantastic !!! We have already programmed our FPGA board.
+
+## 2. Program the board remotely from a Vivado running on another PC or Device (Example: Citrix) 
+
+In this case, you are going to activate the XVC (Xilinx Virtual Cable) Server on your computer.
+Important: Because you are going to run a server on you PC, you need to open a port in the Router to be visible from outside of your local network.
+           You have more information [here](https://share.google/aimode/z2rcQWRW5NuqTHSj8)
+           
 
 
